@@ -1,0 +1,141 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+.jumbotron{
+    font-size: 15px;
+    text-align: center;
+    color: black;
+    background-color: salmon;
+    padding: 50px;
+    border-radius: 16px;
+}
+
+nav{
+    background-color: bisque;
+    padding: 10px;
+    border-radius: 16px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 6px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: slategrey;
+    transition: padding 0,2s ease-in-out;
+}
+nav ul li a:hover{
+    background-color: rgba(50, 28, 1, 0.653);
+    padding: 0,75em;
+    border-radius: 8px;
+}
+
+.box-pink{
+    background-color: rgb(247, 44, 91);
+    text-align: justify;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    border-style: dotted;
+    box-shadow: 10px 5px 5px red;
+}
+.box-pink img{
+    border-radius: 12px;
+}
+.box-purple{
+    background-color: rgb(221, 136, 207);
+    text-align: justify;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    border-style: dashed;
+    box-shadow: 12px 12px 2px 1px rgba(117, 4, 98, 0.2);
+}
+.box-blue{
+    background-color: rgb(87, 143, 202);
+    text-align: justify;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    border-style: double;
+}
+.box-blue img{
+    border-radius: 20px;
+    width: 100;
+}
+.box-brown{
+    background-color: rgb(162, 123, 92);
+    text-align: justify;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    border-style: dashed;
+    box-shadow: 14px 14px 2px 1px rgba(119, 51, 3, 0.2);
+}
+.box-blue{
+    background-color: rgb(54, 116, 181);
+    text-align: justify;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    border-style: dashed;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+
+}
+.box-orange{
+    background-color: rgb(193, 70, 0);
+    text-align: justify;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    border-style: dotted;
+    box-shadow: 12px 12px 2px 1px rgba(247, 149, 3, 0.807);
+}
+.box-orange img{
+    border-radius: 12px;
+    width: 100%;
+}
+
+.box-pink h1{
+    color: rgb(96, 94, 161);
+}
+.box-pink h5{
+    color: rgb(73, 61, 158);
+}
+.box-pink{
+    color: antiquewhite;
+}
+
+.box-purple h1{
+    color: rgb(122, 5, 64);
+}
+.box-purple h5{
+    color: bisque;
+}
+.box-purple {
+    color: antiquewhite;
+}
+.box-orange h1{
+    color: darkgray;
+}
+.box-orange h5{
+    color: burlywood;
+}
+.box-orange {
+    color: ivory;
+}
+.box-blue h1{
+    color: navy;
+}
+.box-blue h5{
+    color: blueviolet;
+}
+.box-blue {
+    color: lightskyblue;
+}

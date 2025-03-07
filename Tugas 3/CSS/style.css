@@ -1,0 +1,113 @@
+body{
+  background-color: pink;
+}
+h2{
+  font-family: 'Times New Roman', Times, serif;
+  color: indianred;
+}
+.navbar a{
+  color: indianred;
+}
+.informasi-box{
+    background-color: #f8d7ff; 
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 1100px ;
+    margin: auto;
+}
+
+.profile-box {
+    background-color: #f8d7ff; 
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); 
+    max-width: 1100px; 
+    margin: 20px auto; 
+  }
+  
+  .profile-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .profile-text {
+    flex: 1;  
+
+    text-align: center;
+  }
+  
+  .profile-img {
+    width: 150px; 
+    height: 150px;
+    border-radius: 50%; 
+    object-fit: cover;
+  }
+h2{
+    background-color: mistyrose;
+
+}
+
+.equal-height {
+    display: flex;
+    align-items: stretch;
+}
+
+.equal-height > div {
+    flex: 1;
+}
+.about-me {
+  position: absolute;
+  top: 150px;
+  right: 20px;
+  width: 250px; 
+  text-align: right;
+}
+.about-box, .quote-box {
+  margin-top: 20px;
+  background-color: #f8d7ff ;
+  border-radius: 10px; 
+  padding: 8px; 
+}
+
+.container {
+  max-width: 900px; 
+  
+}
+
+h3, h4 {
+  background-color: #f8d7ff;
+  color: indianred;
+  font-weight: bold;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+p {
+  text-align: center;
+  line-height: 1.6; 
+}
+.pendidikan-box {
+  border: 2px solid #f8d7ff; 
+  border-radius: 10px; 
+  padding: 20px;
+  background-color: #f8d7ff
+}
+
+.skills-box{
+  border: 2px solid #f8d7ff; 
+  border-radius: 10px; 
+  padding: 20px;
+  background-color: #f8d7ff
+}
+
+.outer-box{
+  width: 90%; 
+  max-width: 900px;
+  margin: 20px auto; 
+  padding: 20px;
+  background-color: rgb(250, 170, 183);
+  border: 2px solid #f88282; 
+  border-radius: 10px; 
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+}
